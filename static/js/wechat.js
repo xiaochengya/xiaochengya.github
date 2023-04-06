@@ -10,7 +10,7 @@ var S = {
     if (i !== -1) {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
-      S.UI.simulate('|#countdown 3||Wechat Id|cheng5zi1zhen5tian|cheng5zi1zhen5tian|#rectangle|');
+      S.UI.simulate('|#countdown 3||微 信 号...|cheng5zi1zhen5tian|cheng5zi1zhen5tian|#rectangle|');
     }
 
     S.Drawing.loop(function () {
